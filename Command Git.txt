@@ -1,0 +1,36 @@
+
+
+
+************************Se connecter a son compte*************************************
+
+
+
+
+Bureau@PC-Bureau MINGW64 /c/xampp/htdocs/MonSiteGit
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/MonSiteGit/.git/
+
+Bureau@PC-Bureau MINGW64 /c/xampp/htdocs/MonSiteGit (master)
+$ git config --global user.name 'Mathieu-Cabare'
+
+Bureau@PC-Bureau MINGW64 /c/xampp/htdocs/MonSiteGit (master)
+$ git config --global user.email 'mathieu.cabare@gmail.com'
+
+Bureau@PC-Bureau MINGW64 /c/xampp/htdocs/MonSiteGit (master)
+$
+
+
+
+
+
+*********************Relier le proje au repository *********************************
+
+
+
+
+
+git remote add origin https://github.com/Mathieu-Cabare/MonSiteGit.git
+
+
+
+
