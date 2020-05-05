@@ -1,9 +1,5 @@
 
-
-
 ************************Se connecter a son compte*************************************
-
-
 
 
 Bureau@PC-Bureau MINGW64 /c/xampp/htdocs/MonSiteGit
@@ -20,17 +16,44 @@ Bureau@PC-Bureau MINGW64 /c/xampp/htdocs/MonSiteGit (master)
 $
 
 
-
-
-
 *********************Relier le proje au repository *********************************
-
-
-
-
 
 git remote add origin https://github.com/Mathieu-Cabare/MonSiteGit.git
 
+
+**********************Selectionner l'ensemble des fichiers******************************
+
+git add --all
+
+
+**********************Creer 1ere version du projet **********************************
+
+
+Bureau@PC-Bureau MINGW64 /c/xampp/htdocs/MonSiteGit (master)  // (master)  -> branche principale
+$ git commit -m 'premiere version du projet'         // -m -> message
+
+
+reponse:
+
+[master (root-commit) daec3ab] premiere version du projet
+ 2 files changed, 56 insertions(+)
+ create mode 100644 Command Git.txt
+ create mode 100644 index.php
+
+
+************************ envoyer le travail sur la branche Master**********************
+
+git push -u origin master     // les fichiers apparaissent dans github.com
+
+************************ Creer une branche parallele**********************
+
+git branch ajout_paragraphe
+
+git branch // voir les bracnhe existantes
+
+git checkout ajout_paragraphe  // se positioner sur ajout paragraphe
+
+git diff   // voir les evolution
 
 
 
