@@ -74,5 +74,7 @@ git branch -D ajout_paragraphe
 
 $ git pull origin master
 
+git checkout -b ajout_list  // perment de faire un git branch et un checkout (racourci) 
+
 
 
