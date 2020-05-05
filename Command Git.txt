@@ -55,5 +55,24 @@ git checkout ajout_paragraphe  // se positioner sur ajout paragraphe
 
 git diff   // voir les evolution
 
+:q // commande pour sortir
+
+
+************************ ajouter la branche parallele a la branche master**********************
+
+$ git push origin ajout_paragraphe
+
+************************ Revenir sur le master **********************
+
+git checkout master
+
+************************ delete ancienne branch **********************
+
+git branch -D ajout_paragraphe
+
+************************* pousser le travail dans l'editeur ***************
+
+$ git pull origin master
+
 
 
